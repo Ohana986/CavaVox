@@ -1,0 +1,20 @@
+# Build artifacts
+dll/build/
+build_dll/
+*.exp
+*.lib
+*.pdb
+
+# Runtime shared libraries (copied, not source)
+fftw3.dll
+libcavacore.so
+libcavacore.so.*
+
+# Cache
+cache/
+
+# AI agent / IDE config (project-internal)
+.qwen/
+
+# Pre-built DLL (build artifact, regenerate from source)
+cavacore.dll

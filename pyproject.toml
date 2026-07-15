@@ -1,0 +1,16 @@
+[project]
+name = "cava-vox"
+version = "0.1.0"
+description = "CAVA Vocal Overlay — dual cavacore offline audio spectrum visualizer"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "pygame",
+    "soundfile",
+    "librosa",
+]
+
+[tool.uv]
+link-mode = "hardlink"
